@@ -1,0 +1,420 @@
+Lisää tietoa testeistä löytyy lueminut -tiedostosta.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	TESTI 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Tama on pankkiautomaatti, jolla voi nostaa ja tallettaa rahaa seka tarkistaa
+tilin saldon. Automaatin voi sulkea syottamalla tilinumeroksi '0000'.
+
+
+ANNA TILINUMERO --> 1234
+ANNA TUNNUSLUKU --> 1234
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> s
+
+Nykyinen saldosi on 43790 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1234
+ANNA TUNNUSLUKU --> 1234
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 580
+
+ SAAT:
+
+  4 kpl   20 euron seteleita
+  5 kpl  100 euron seteleita
+
+ YHTEENSA 580 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1
+Syotteen on oltava 4 merkkia pitka.
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4321
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> s
+
+Nykyinen saldosi on 32000 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4312
+Virheellinen tunnusluku!
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4321
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> t
+
+ANNA TALLETETTAVA SUMMA --> 7500
+Talletus onnistui.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1234
+ANNA TUNNUSLUKU --> 1234
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> s
+
+Nykyinen saldosi on 43210 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4321
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> s
+
+Nykyinen saldosi on 39500 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0000
+Automaatti sulkeutuu.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	TESTI 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Tama on pankkiautomaatti, jolla voi nostaa ja tallettaa rahaa seka tarkistaa
+tilin saldon. Automaatin voi sulkea syottamalla tilinumeroksi '0000'.
+
+
+ANNA TILINUMERO -->
+Syotteen on oltava 4 merkkia pitka.
+
+ANNA TILINUMERO --> 15818978173489718934917381946145
+Syotteen on oltava 4 merkkia pitka.
+
+ANNA TILINUMERO --> aago
+Ainoastaan seuraavat merkit ovat sallittuja syotteessa:
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+
+ANNA TILINUMERO --> a03u0tqi50m09timg+b3m+0qi+bemu8gijad 0å;;gjpw i´e´pkkaå åålå
+ ^K wå  åpkeåpksfklsä.öl+ry8
+Ainoastaan seuraavat merkit ovat sallittuja syotteessa:
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> öööö
+Ainoastaan seuraavat merkit ovat sallittuja syotteessa:
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+
+ANNA TUNNUSLUKU --> 9642
+Virheellinen tunnusluku!
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 88888
+Syotteen on oltava 4 merkkia pitka.
+
+ANNA TUNNUSLUKU -->
+Syotteen on oltava 4 merkkia pitka.
+
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> ö
+Syota jokin seuraavista arvoista: N, T, S, n, t, s
+
+VALINTASI -->
+Syotteen on oltava 1 merkkia pitka.
+
+VALINTASI --> pipiyqwe 0245092n39058nb20938n5euriwiuno90/////////\\\\\\\\\\öäöäö
+äöäöäö¨¨¨¨¨'a'g'ga
+Syotteen on oltava 1 merkkia pitka.
+
+VALINTASI --> nts
+Syotteen on oltava 1 merkkia pitka.
+
+VALINTASI --> N
+
+ANNA NOSTETTAVA SUMMA --> oo
+Virheellinen syote.
+
+ANNA NOSTETTAVA SUMMA -->
+Virheellinen syote.
+
+ANNA NOSTETTAVA SUMMA --> 2409284085902485982498692489682948962849869284968246
+Syotearvon on oltava valissa 0...9999999
+
+ANNA NOSTETTAVA SUMMA --> 200000
+
+ SAAT:
+
+2000 kpl  100 euron seteleita
+
+ YHTEENSA 200000 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> T
+
+ANNA TALLETETTAVA SUMMA --> -7
+Syotteen on oltava positiivinen.
+
+ANNA TALLETETTAVA SUMMA --> 103501035016
+Syotearvo voi olla korkeintaan 999999.
+
+ANNA TALLETETTAVA SUMMA --> 1000000
+Syotearvo voi olla korkeintaan 999999.
+
+ANNA TALLETETTAVA SUMMA --> 999999
+Talletus onnistui.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> T
+
+ANNA TALLETETTAVA SUMMA --> agad
+Virheellinen syote.
+
+ANNA TALLETETTAVA SUMMA --> 0
+Talletus onnistui.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> S
+
+Nykyinen saldosi on 10799998 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0000
+Automaatti sulkeutuu.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	TESTI 3
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+koodirivi 159 on tässä testissä seuraavanlainen:
+perusRahat = alustaRahanLajittelija( 1474, 1664, 1999, 6773, 19843, 57683, 360000 );
+
+algoritmi toimi nopeasti, viivettä ei havainnut.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Tama on pankkiautomaatti, jolla voi nostaa ja tallettaa rahaa seka tarkistaa
+tilin saldon. Automaatin voi sulkea syottamalla tilinumeroksi '0000'.
+
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> s
+
+Nykyinen saldosi on 10799998 euroa.
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 90000
+
+ SAAT:
+
+ 25 kpl 1474 euron seteleita
+  3 kpl 1664 euron seteleita
+  4 kpl 1999 euron seteleita
+  3 kpl 6773 euron seteleita
+  1 kpl 19843 euron seteleita
+
+ YHTEENSA 90000 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> n
+Ainoastaan seuraavat merkit ovat sallittuja syotteessa:
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 2200
+
+ SAAT:
+
+  1 kpl 1999 euron seteleita
+
+ YHTEENSA 1999 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1234
+ANNA TUNNUSLUKU --> 1234
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 60000
+Syotearvon on oltava valissa 0...43210
+
+ANNA NOSTETTAVA SUMMA --> 43210
+
+ SAAT:
+
+  9 kpl 1474 euron seteleita
+  2 kpl 1664 euron seteleita
+  1 kpl 6773 euron seteleita
+  1 kpl 19843 euron seteleita
+
+ YHTEENSA 43210 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 1111
+ANNA TUNNUSLUKU --> 8888
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> N
+
+ANNA NOSTETTAVA SUMMA --> 1000000
+
+ SAAT:
+
+ 28 kpl 1474 euron seteleita
+  4 kpl 1999 euron seteleita
+  4 kpl 57683 euron seteleita
+  2 kpl 360000 euron seteleita
+
+ YHTEENSA 1000000 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4321
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 10000
+
+ SAAT:
+
+  5 kpl 1999 euron seteleita
+
+ YHTEENSA 9995 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0001
+ANNA TUNNUSLUKU --> 4321
+
+Valitse toiminto:
+N - Nosto
+T - Talletus
+S - Saldo
+
+VALINTASI --> n
+
+ANNA NOSTETTAVA SUMMA --> 9994
+
+ SAAT:
+
+  6 kpl 1664 euron seteleita
+
+ YHTEENSA 9984 euroa
+
+TERVETULOA UUDELLEEN
+
+ANNA TILINUMERO --> 0000
+Automaatti sulkeutuu.
