@@ -1,4 +1,4 @@
-This is a school programming project made by myself in December 2014. The program, comments and the documentation are in Finnish.
+This is a school programming project made by myself in December 2014. The program, documentation and comments are in Finnish.
 Copyright (C) Tuukka Kurtti
 
 
