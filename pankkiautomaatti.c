@@ -26,16 +26,16 @@ Kääntäminen vaatii tietääkseni C99-stantardin käyttöä.
 #include <string.h>
 #include <ctype.h>
 
-// Omat laajennukset (hieman huono toteutus, koska ei käytä headeria)
+// Omat laajennukset
 
-#include "syote.c"
+#include "syote.h"
 
 
 ///////////////////////////////////////
 //// MAKROT JA TYYPPIMÄÄRITELMÄT /////
 /////////////////////////////////////
 
-// VA_NUM_ARGS() on syote.c -tiedostossa
+// VA_NUM_ARGS() on syote.h -tiedostossa
 #define alustaRahanLajittelija( ... ) alustaRahanLajittelija_( VA_NUM_ARGS( __VA_ARGS__ ), __VA_ARGS__ )
 
 /* STRUCT FrobeniusPalikka
